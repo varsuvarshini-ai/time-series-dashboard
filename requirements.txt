@@ -1,0 +1,6 @@
+streamlit
+plotly
+statsmodels
+numpy
+pandas
+Add requirements file
