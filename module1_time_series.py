@@ -18,7 +18,8 @@ st.divider()
 
 # ---------------- DATA ----------------
 np.random.seed(42)
-dates = pd.date_range("2016-01", periods=72, freq="ME")
+dates = pd.date_range("2016-01", periods=72, freq="M")
+
 
 trend = np.linspace(100, 200, 72)
 seasonal = 15 * np.sin(2 * np.pi * np.arange(72) / 12)
