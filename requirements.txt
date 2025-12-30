@@ -3,4 +3,5 @@ plotly
 statsmodels
 numpy
 pandas
+Pin package versions for Streamlit Cloud
 Add requirements file
