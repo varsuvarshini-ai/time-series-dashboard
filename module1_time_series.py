@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 from statsmodels.tsa.seasonal import seasonal_decompose
+Fix statsmodels import for cloud deployment
 
 st.set_page_config(page_title="Module 1: Time Series", layout="wide")
 
